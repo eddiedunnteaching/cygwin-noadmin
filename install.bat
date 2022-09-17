@@ -1,0 +1,1 @@
+setup-x86_64.exe --no-shortcuts --no-admin --download --site https://mirrors.rit.edu/  --packages wget,git
