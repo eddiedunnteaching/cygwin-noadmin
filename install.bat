@@ -1,1 +1,2 @@
-setup-x86_64.exe --no-shortcuts --no-admin --download --site https://mirrors.rit.edu/  --packages wget,git
+curl https://www.cygwin.com/setup-x86_64.exe --output setup-x86_64.exe
+setup-x86_64.exe --no-shortcuts  --no-admin  -D --only-site  --site https://mirrors.rit.edu/cygwin/ --root cygwin64 --remove-packages libusb0  --packages "wget,git" 
